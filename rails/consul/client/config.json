@@ -1,0 +1,6 @@
+{
+  "server": false,
+  "data_dir": "/var/consul",
+  "log_level": "INFO",
+  "enable_syslog": false
+}

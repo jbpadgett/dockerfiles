@@ -1,0 +1,14 @@
+{
+  "service": {
+    "id": "jenkins_id",
+    "name": "jenkins",
+    "tags": ["jenkins"],
+    "address": "127.0.0.1",
+    "port": 8080,
+    "check": {
+    "id": "jenkins_check",
+    "name": "Jenkins via http on port 8080",
+    "http": "http://localhost:8080"
+    }
+  }
+}

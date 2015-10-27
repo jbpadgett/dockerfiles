@@ -1,0 +1,14 @@
+{
+  "service": {
+    "id": "rails_puma",
+    "name": "rails",
+    "tags": ["rails", "puma"],
+    "address": "127.0.0.1",
+    "port": 3000,
+    "check": {
+    "id": "rails_puma_check",
+    "name": "Rails via http on port 3000",
+    "http": "http://localhost:3000"
+    }
+  }
+}
